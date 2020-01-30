@@ -1,2 +1,2 @@
 # TechCenter
-# I am currently drafting my website and get Github. Ask for more info directly from me.
+# Computer geek learning Computer Science Ask for more info from me! I am working on coding to add to my site, so it will keep expanding as time passes.
