@@ -78,7 +78,7 @@ VALUES
 (1204306, 100005, 'ADV-48-10F', 'Advanced Switch 10 GigE Copper/Fiber 44 port copper 4 port fiber'),
 (1204307, 100006, 'ENT-24-10F', 'Enterprise Switch 10GigE SFP+ 24 Port'),
 (1204308, 100007, 'ENT-48-10F', 'Enterprise Switch 10GigE SFP+ 48 port');
-
+  
 --update RMA file with OrderID 5175 to complete and 'credit customer account'. Verify.it.
 UPDATE RMA 
 SET Status = 'Complete', 
