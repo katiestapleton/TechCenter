@@ -10,7 +10,7 @@ public class Paint2 {
         double wallWidth = 0.0;
         double wallArea = 0.0;
         double gallonsPaintNeeded = 0.0;
-        double cansNeeded;
+        double cansNeeded = 0.0;
 
         final double squareFeetPerGallons = 350.0;
         final double gallonsPerCan = 1.0;
@@ -18,7 +18,6 @@ public class Paint2 {
         // Prompt user to input wall's height
         System.out.println("Enter wall height (feet): ");
         wallHeight = scnr.nextDouble();
-
 
         // Prompt user to input wall's width
         System.out.println("Enter wall width (feet): ");
@@ -34,7 +33,6 @@ public class Paint2 {
 
         // Calculate and output the number of paint cans needed to paint the wall,
         // rounded up to nearest integer
-        // Complete this code block
         cansNeeded = Math.ceil(gallonsPaintNeeded); 
         System.out.println("Cans needed: " + cansNeeded + " can(s)");
        
