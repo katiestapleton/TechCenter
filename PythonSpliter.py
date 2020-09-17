@@ -1,4 +1,4 @@
-# add exit to loop.
+# add user input: exit to loop. add further coding later
 
 # initial entry
 print('This program is designed to split one user enter into 2 outputs.')
