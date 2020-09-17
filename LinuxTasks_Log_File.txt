@@ -1,0 +1,18 @@
+    1  mkdir NEW
+    2  mkdir BACKUP
+    3  mkdir OLD
+    4  vi
+    5  mv Personal_Content.txt /NEW
+    6  cd NEW
+    7  echo `free` > Free_Space_Content.txt
+    8  touch Directory_Content.txt
+    9  ls -la >> Directory_Content.txt
+   10  cat Directory_Content.txt > Copied_Content.txt
+   11  date>Time_File.txt
+   12  cp Copied_Content.txt ../OLD/Copied_Content_OLD.txt
+   13  cp Directory_Content.txt ../OLD/Directory_Content_OLD.txt
+   14  cp Free_Space_Content.txt ../OLD/Free_Space_Content_OLD.txt
+   15  cp Personal_Content.txt ../OLD/Personal_Content_OLD.txt
+   16  cp Time_File.txt ../OLD/Time_File_OLD.txt
+   17  cd ..
+   18  history > Tasks_Log_File.txt

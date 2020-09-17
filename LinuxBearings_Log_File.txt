@@ -1,0 +1,17 @@
+    1  gcc
+    2  java
+    3  sudo apt update && sudo apt upgrade -y
+    4  sudo apt update -y && sudo apt upgrade -y
+    5  sudo apt update && sudo apt upgrade -y
+    6  sudo apt install man
+    7  pwd
+    8  whoami
+    9  ls
+   10  man ls
+   11  ls -a
+   12  grep "lastbackup" *.txt
+   13  ls -l whoownsme.txt
+   14  chmod 755 whoownsme.txt
+   15  ls -l whoownsme.txt
+   16  top
+   17  history > Bearings_Log_File.txt
