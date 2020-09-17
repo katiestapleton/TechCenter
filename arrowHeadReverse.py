@@ -1,5 +1,5 @@
 # ERROR(S) WITHIN CODE. FIX.
-# add user messages for errors
+# prints in wrong order. need to error if user enters wrong value
 
 arrow_base_height = int(input('Enter arrow base height: '))
 arrow_base_width = int(input('Enter arrow base width: '))
